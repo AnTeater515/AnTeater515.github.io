@@ -99,8 +99,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		color: rgb(255, 255, 255);
+		font-family: "Expletus Sans";
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -133,6 +133,8 @@ input, select, textarea {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
+			background-color: rgb(0, 0, 0);
+			color: rgb(50, 231, 255);
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
@@ -352,6 +354,7 @@ input, select, textarea {
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
+		background-color: rgba(0, 2, 126, 0.479);
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -691,8 +694,8 @@ input, select, textarea {
 				}
 
 					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						background-color: rgba(255, 255, 255, 0.35);
+						color: rgb(0, 0, 0);
 					}
 
 				#header nav a:active {
@@ -702,7 +705,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: rgb(255, 255, 255);
 					}
 
 				#header nav a span {
